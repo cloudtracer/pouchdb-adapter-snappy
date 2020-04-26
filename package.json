@@ -20,7 +20,7 @@
   ],
   "homepage": "https://github.com/cloudtracer/pouchdb-adapter-snappy",
   "jsnext:main": "./lib/index.es.js",
-  "keywords": ['snappy', 'snappydown', 'fsdown', 'pouchdb'],
+  "keywords": ["snappy", "snappydown", "fsdown", "pouchdb"],
   "license": "Apache-2.0",
   "main": "./lib/index.js",
   "module": "./lib/index.es.js",
