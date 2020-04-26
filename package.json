@@ -1,19 +1,18 @@
 {
-  "author": {
-    "name": "Matt Brewer",
-    "email": "matt.brewer@cloud-tracer.com"
-  },
+  "author": "Matt Brewer <matt.brewer@cloud-tracer.com>",
   "bugs": {
     "url": "https://github.com/cloudtracer/pouchdb-adapter-snappy/issues"
   },
   "dependencies": {
-    "snappydown": "0.0.1",
+    "snappydown": "0.0.2",
     "pouchdb-adapter-leveldb-core": "7.2.1",
     "pouchdb-utils": "7.2.1"
   },
   "description": "PouchDB adapter using snappydown",
   "devDependencies": {},
-  "directories": {},
+  "directories": {
+    "lib": "lib"
+  },
   "files": [
     "lib",
     "dist",
@@ -21,17 +20,18 @@
   ],
   "homepage": "https://github.com/cloudtracer/pouchdb-adapter-snappy",
   "jsnext:main": "./lib/index.es.js",
-  "keywords": [],
+  "keywords": ['snappy', 'snappydown', 'fsdown', 'pouchdb'],
   "license": "Apache-2.0",
   "main": "./lib/index.js",
   "module": "./lib/index.es.js",
   "name": "pouchdb-adapter-snappy",
   "optionalDependencies": {},
-  "readme": "pouchdb-adapter-snappy",
-  "readmeFilename": "README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cloudtracer/pouchdb-adapter-snappy.git"
   },
-  "version": "0.0.1"
+  "version": "0.0.2",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
